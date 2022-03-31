@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1219774645449863569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1219774645449863570}
+  - component: {fileID: 1219774645449863573}
+  - component: {fileID: 1219774645449863572}
+  - component: {fileID: 1219774645449863571}
+  - component: {fileID: 1219774645449863574}
+  m_Layer: 0
+  m_Name: Spawn_Enemy_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1219774645449863570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219774645449863569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -123.25, y: -43.84, z: -230.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1219774645449863573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219774645449863569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f32b430541cc0479270df78a237244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLayers: 03000000
+  distanceCallback: 20
+  infiniteCast: 0
+  targetTransform: {fileID: 0}
+  transformVariable: {fileID: 11400000, guid: 2391b71a890c9264f89d354cdf945246, type: 2}
+  onDistanceUnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1219774645449863572}
+        m_TargetAssemblyTypeName: CorruptCity.Events.TimerController, Assembly-CSharp
+        m_MethodName: StopTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  outOfDistanceUnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1219774645449863572}
+        m_TargetAssemblyTypeName: CorruptCity.Events.TimerController, Assembly-CSharp
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onViewUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  outViewUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onDistanceAndViewUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  outDistanceAndViewUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1219774645449863572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219774645449863569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640641b390ab68440b9a16f474f8077a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerDuration: 10
+  unScaleTimer: 0
+  timerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1219774645449863571}
+        m_TargetAssemblyTypeName: CorruptCity.Entities.Spawn.SpawnController, Assembly-CSharp
+        m_MethodName: SpawnEntities
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1219774645449863572}
+        m_TargetAssemblyTypeName: CorruptCity.Events.TimerController, Assembly-CSharp
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1219774645449863571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219774645449863569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a9b4c2e97638946b94f9bd69f02c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entitiesPrefab: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  isRandomPrefab: 0
+  randomPrefabs: []
+  expectedPoolsize: 2
+  maxEntities: 5
+  spawnPoint: {fileID: 1219774645449863570}
+  randomSpawnPoints: []
+  isRandomSpawn: 0
+  eventOnSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1219774645449863574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219774645449863569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef2f36d6d295304cb908dd1a70f9e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableUnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1219774645449863572}
+        m_TargetAssemblyTypeName: CorruptCity.Events.TimerController, Assembly-CSharp
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  disableUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []

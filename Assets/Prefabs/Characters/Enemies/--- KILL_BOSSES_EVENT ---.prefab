@@ -1,0 +1,3331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8161715083660769564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8161715083660769563}
+  m_Layer: 0
+  m_Name: --- ENEMY_BOSSES ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8161715083660769563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8161715083660769564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2510750820693388122}
+  - {fileID: 2510750822235779451}
+  - {fileID: 2510750821291696701}
+  m_Father: {fileID: 8161715084634515101}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8161715084634515102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8161715084634515101}
+  m_Layer: 0
+  m_Name: --- KILL_BOSSES_EVENT ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8161715084634515101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8161715084634515102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8161715083660769563}
+  - {fileID: 2510750821166098465}
+  - {fileID: 2510750822189604446}
+  - {fileID: 2510750820702765640}
+  - {fileID: 2510750820804624389}
+  - {fileID: 2510750821000403383}
+  - {fileID: 2510750820485215783}
+  - {fileID: 2510750821849529429}
+  - {fileID: 2510750820465100332}
+  - {fileID: 2510750821184838897}
+  - {fileID: 2510750820910428945}
+  - {fileID: 2510750820875708552}
+  - {fileID: 2510750820631664894}
+  - {fileID: 2510750820661210192}
+  - {fileID: 2510750820490671835}
+  - {fileID: 2510750820517538587}
+  - {fileID: 2510750822214617879}
+  - {fileID: 2510750820746188361}
+  - {fileID: 2510750820821826141}
+  - {fileID: 2510750822183910109}
+  - {fileID: 2510750821144234958}
+  - {fileID: 2510750821354358407}
+  - {fileID: 2510750821736041749}
+  - {fileID: 2510750820233036962}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8161715082658838752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821736041749}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_025
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 128.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750821736041749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715082658838752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715082680027552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821849529429}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -44.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750821849529429 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715082680027552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083014147880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750822183910109}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_021
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 118.509995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.380005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750822183910109 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083014147880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083067065486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715083660769563}
+    m_Modifications:
+    - target: {fileID: 1921406861, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: fireRate
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750822235779451}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 143.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -37.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!1 &2504582980732309671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083067065486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2510750822235779451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083067065486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8161715084573849619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504582980732309671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &8161715083113311147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750822189604446}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750822189604446 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083113311147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083120246498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750822214617879}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_018
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 157.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750822214617879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083120246498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083181107460
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821184838897}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_010
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 129.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750821184838897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083181107460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083204335560
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715083660769563}
+    m_Modifications:
+    - target: {fileID: 1921406861, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: fireRate
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821291696701}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_023
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 123.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!1 &2504582979799958497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083204335560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2510750821291696701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083204335560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8161715083081827555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504582979799958497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &8161715083275400050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821354358407}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_024
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 130.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 65.380005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750821354358407 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083275400050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083672034991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715083660769563}
+    m_Modifications:
+    - target: {fileID: 1921406861, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: fireRate
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820693388122}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -36.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820693388122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083672034991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2504582979189787270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083672034991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8161715084628045609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504582979189787270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &8161715083689949117
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820702765640}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 44.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -37.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820702765640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083689949117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083731474853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820661210192}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 135.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.619999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820661210192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083731474853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083749352380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820746188361}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_019
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 127.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820746188361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083749352380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083807936424
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820821826141}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_020
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 118.009995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 56.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820821826141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083807936424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083859178992
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820804624389}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -46.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820804624389 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083859178992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083889198820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820910428945}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_011
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 132.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -49.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820910428945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083889198820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715083921726845
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820875708552}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 142.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -51.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820875708552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715083921726845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084070284354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821000403383}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -42.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750821000403383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084070284354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084170304980
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821166098465}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 57.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -48.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750821166098465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084170304980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084190137915
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750821144234958}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_022
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 125.259995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750821144234958 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084190137915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084293960023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820233036962}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_026
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 114.009995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!114 &482241196915085585 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8643955179414560838, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084293960023}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05258784fbfd978498959b56999e4db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2510750820233036962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084293960023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084542264110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820490671835}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_016
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 154.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -37.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820490671835 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084542264110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084545065938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820485215783}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_007
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820485215783 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084545065938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084601390041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820465100332}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_009
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820465100332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084601390041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084653813486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820517538587}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_017
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 150.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -29.119999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820517538587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084653813486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8161715084701101323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8161715084634515101}
+    m_Modifications:
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: distanceCallback
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetForwardAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: onDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406862, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: outOfDistanceUnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CorruptCity.Entities.Agents.AnimatorMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: trackingPosition
+      value: 
+      objectReference: {fileID: 2510750820631664894}
+    - target: {fileID: 1921406864, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: scriptableTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018546688650695721, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Movement_Enemy_013
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 136.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -46.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 482241196915085585}
+    - target: {fileID: 8596023424456633489, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+      propertyPath: enableUnityEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetIdleAnimation
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+--- !u!4 &2510750820631664894 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6022375044285150709, guid: 4cec64777cb7f144dbf5912f1e8f7ddb, type: 3}
+  m_PrefabInstance: {fileID: 8161715084701101323}
+  m_PrefabAsset: {fileID: 0}

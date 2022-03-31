@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7158869754365978879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8645026123954097431}
+  - component: {fileID: 8133524609001670970}
+  - component: {fileID: 6835948344521731380}
+  - component: {fileID: 8799819971813086020}
+  - component: {fileID: 4389140063992191878}
+  m_Layer: 3
+  m_Name: Car_Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8645026123954097431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158869754365978879}
+  m_LocalRotation: {x: -0, y: 0.96592605, z: -0, w: -0.2588185}
+  m_LocalPosition: {x: 64.89301, y: 1.06, z: -6.5812445}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8133524609001670970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158869754365978879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a9b4c2e97638946b94f9bd69f02c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entitiesPrefab: {fileID: 3829883951124479651, guid: 1a37436bd7c21154494036de90f9ea9f, type: 3}
+  isRandomPrefab: 0
+  randomPrefabs: []
+  expectedPoolsize: 0
+  maxEntities: 0
+  spawnPoint: {fileID: 8645026123954097431}
+  randomSpawnPoints: []
+  isRandomSpawn: 0
+  eventOnSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6835948344521731380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158869754365978879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a9b4c2e97638946b94f9bd69f02c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entitiesPrefab: {fileID: 8584858998998219047, guid: f636003be439f354b8266289609337f1, type: 3}
+  isRandomPrefab: 0
+  randomPrefabs: []
+  expectedPoolsize: 0
+  maxEntities: 0
+  spawnPoint: {fileID: 8645026123954097431}
+  randomSpawnPoints: []
+  isRandomSpawn: 0
+  eventOnSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8799819971813086020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158869754365978879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a9b4c2e97638946b94f9bd69f02c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entitiesPrefab: {fileID: 65903034087624434, guid: d5f921a227446f74d852d91f65600966, type: 3}
+  isRandomPrefab: 0
+  randomPrefabs: []
+  expectedPoolsize: 0
+  maxEntities: 0
+  spawnPoint: {fileID: 8645026123954097431}
+  randomSpawnPoints: []
+  isRandomSpawn: 0
+  eventOnSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4389140063992191878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158869754365978879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd6f2dd289a6bf41bcd7d56e3237d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  policeCarSpawnController: {fileID: 8133524609001670970}
+  swatCarSpawnController: {fileID: 6835948344521731380}
+  tankSpawnSpawnController: {fileID: 8799819971813086020}
+  scriptablePlayerConfig: {fileID: 11400000, guid: 0c31e3cb8cc8c2d4993a0529604efea4, type: 2}

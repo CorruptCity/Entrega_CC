@@ -1,0 +1,3441 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2494527924100156571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2494527924100156568}
+  m_Layer: 0
+  m_Name: --- KILL_ALL_EVENT ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2494527924100156568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494527924100156571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2494527925073875742}
+  - {fileID: 2673566013232982980}
+  - {fileID: 6936052546762830604}
+  - {fileID: 2673566012385284305}
+  - {fileID: 6936052546117991144}
+  - {fileID: 2673566012657950077}
+  - {fileID: 6936052545599338280}
+  - {fileID: 2673566014138586980}
+  - {fileID: 2673566014263532341}
+  - {fileID: 6936052546131432437}
+  - {fileID: 2673566012403470007}
+  - {fileID: 6936052545969082438}
+  - {fileID: 6936052546256030528}
+  - {fileID: 2673566013002840601}
+  - {fileID: 2673566012797298212}
+  - {fileID: 6936052546969263235}
+  - {fileID: 6936052546954815782}
+  - {fileID: 6936052547150061578}
+  - {fileID: 2673566012929581662}
+  - {fileID: 6936052545575426601}
+  - {fileID: 2673566013585226897}
+  - {fileID: 6936052545691958183}
+  - {fileID: 2673566012940920444}
+  - {fileID: 6936052546723001879}
+  - {fileID: 6936052546559684529}
+  - {fileID: 2673566012449604373}
+  - {fileID: 6936052545227211468}
+  - {fileID: 2673566013093706710}
+  - {fileID: 2673566012667736469}
+  - {fileID: 6936052546539504827}
+  - {fileID: 6936052546942991168}
+  - {fileID: 2673566012329927736}
+  - {fileID: 2673566012385012077}
+  - {fileID: 2673566012430348479}
+  - {fileID: 6936052547217450743}
+  - {fileID: 6936052546889948600}
+  - {fileID: 6936052545379671547}
+  - {fileID: 2673566013781383513}
+  - {fileID: 6936052545952694366}
+  - {fileID: 2673566012706813983}
+  - {fileID: 2673566012969276497}
+  - {fileID: 6936052545530658436}
+  - {fileID: 6936052545559371413}
+  - {fileID: 6936052547012270984}
+  - {fileID: 2673566013293095769}
+  - {fileID: 2673566014038162218}
+  - {fileID: 6936052546433871832}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2494527925073875737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2494527925073875742}
+  m_Layer: 0
+  m_Name: --- ENEMY_BOSSES ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2494527925073875742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494527925073875737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2673566014113423310}
+  - {fileID: 6936052546181667566}
+  - {fileID: 2673566013053527344}
+  - {fileID: 6936052545662083856}
+  - {fileID: 2673566013281867177}
+  - {fileID: 2673566013833460202}
+  m_Father: {fileID: 2494527924100156568}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2494527923430787005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_013
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 167.7723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.417877
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546723001879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527923430787005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923479443585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.96052
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.697697
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.13052557
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 195
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012403470007 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923479443585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923492025635
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 166.19586
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 65.79547
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_012
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012449604373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923492025635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923513652497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_016
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 167.27237
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.417873
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546539504827 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527923513652497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923523077769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 165.44606
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.70454
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_019
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012430348479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923523077769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923552165403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 165.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 68.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546559684529 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527923552165403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923557405198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 164.47786
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.03201
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_016
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012329927736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923557405198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923563863899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 165.69594
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28.795467
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_017
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012385012077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923563863899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923564668647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.52489
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.043867
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8660253
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012385284305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923564668647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923621597202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 60.848534
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.685911
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7933527
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087622
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_007
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012797298212 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923621597202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923678010994
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 132.46983
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -45.077454
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071081
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546433871832 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527923678010994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923743819683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 147.27957
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.648167
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_015
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012667736469 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923743819683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923753446219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.739178
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.489452
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.13052557
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 195
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012657950077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923753446219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923783421481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 160.4461
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -52.954556
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_021
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012706813983 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923783421481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923788479210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.695316
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.928286
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.13052557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546256030528 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527923788479210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923876139424
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_010
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 112.250534
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 60.5395
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7933535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087612
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052547150061578 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527923876139424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923920621024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 146.06148
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.884712
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_014
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566013093706710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923920621024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923943003997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_018
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 165.0602
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.910015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052547217450743 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527923943003997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923944573999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.494495
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.577738
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.13052557
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 195
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566013002840601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923944573999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527923961844486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527925073875742}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 164.97778
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.032013
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_013
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!1 &2670338750244127086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923961844486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2673566013053527344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527923961844486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2494527925178730050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670338750244127086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2494527924005284386
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.64194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -43.11515
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000015795229
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052547012270984 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924005284386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924019105866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 149.52954
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.39817
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_011
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012940920444 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924019105866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924022842472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 111.15452
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.138924
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7933535
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087612
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_009
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012929581662 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924022842472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924045242983
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.09752
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -65.501015
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000015795229
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_022
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566012969276497 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924045242983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924136127506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_019
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 167.02249
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.082134
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546889948600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924136127506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924183911146
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 165.31007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.589993
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546942991168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924183911146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924197382284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_009
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 148.85599
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 42.27058
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546954815782 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924197382284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924203511151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 134.84744
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -43.501022
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000015795229
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_024
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566013293095769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924203511151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924207362975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527925073875742}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 134.33405
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.28293
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071081
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071055
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_023
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!1 &2670338749952881143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924207362975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2673566013281867177 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924207362975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2494527923446844375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670338749952881143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2494527924216491305
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 118.85733
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 61.435005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238795
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546969263235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924216491305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924288438950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.793446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.816687
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8660253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546762830604 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924288438950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924327816690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.153946
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.816025
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566013232982980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924327816690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924418260799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 139.89201
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -65.11514
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000015795229
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545559371413 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924418260799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924444277635
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 146.60596
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.020584
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545575426601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924444277635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924453557890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.443756
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.396793
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7933527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087622
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545599338280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924453557890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924512279207
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 148.31145
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 61.634705
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_010
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566013585226897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924512279207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924516770490
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527925073875742}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32.948463
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.430138
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545662083856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924516770490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6936052545662326634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924516770490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2494527923698402033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6936052545662326634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2494527924656459566
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_022
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 134.71991
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -67.077446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071081
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545530658436 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924656459566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924773858385
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_020
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 160.06024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50.16003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545379671547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924773858385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924792496092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527925073875742}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 164.22798
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.467999
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_018
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566013833460202 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924792496092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2670338748390464948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924792496092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2494527925025810395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670338748390464948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2494527924857352047
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 159.22803
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -55.718014
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_020
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566013781383513 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924857352047}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924884665190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 146.89368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.44271
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545227211468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924884665190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924965515602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.093216
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.597625
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7933527
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087622
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566014138586980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527924965515602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924975356738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.13052557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546117991144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924975356738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527924987175519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.161343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38.048244
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.13052557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546131432437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527924987175519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527925037476676
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527925073875742}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.6651
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38.605038
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7933527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087622
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052546181667566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527925037476676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6936052546181951124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527925037476676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2494527923549820486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6936052546181951124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2494527925057792504
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527925073875742}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 117.154175
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.186115
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238795
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268358
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_008
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!1 &2670338749184244624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527925057792504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2673566014113423310 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527925057792504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2494527923538995161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670338749184244624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dcd4a19d0dd2c4bb772baccefd0d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2494527925073277428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_021
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 162.02254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -55.33215
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000012367963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545952694366 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527925073277428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527925090705900
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 61.199074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.485079
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7933527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087622
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545969082438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527925090705900}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527925132987676
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 132.08397
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -42.282936
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071081
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071055
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_025
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566014038162218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527925132987676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527925367671309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 4818738234965673424, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policewoman_Enemy_012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 149.14366
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67.192696
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+--- !u!4 &6936052545691958183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818738234965930410, guid: 7448505d9ccbf3641abad316bda40818, type: 3}
+  m_PrefabInstance: {fileID: 2494527925367671309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2494527925440294147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2494527924100156568}
+    m_Modifications:
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.31456
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.80587
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7933527
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6087622
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545117111103181416, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+      propertyPath: m_Name
+      value: Pooled_Policeman_Enemy_004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+--- !u!4 &2673566014263532341 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 541625962863081014, guid: 87c7ee606d32f5846970c473f10a61cb, type: 3}
+  m_PrefabInstance: {fileID: 2494527925440294147}
+  m_PrefabAsset: {fileID: 0}
